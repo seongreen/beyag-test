@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ServiceProvider_Request>
+  <Version>1</Version>
+  <RequestType>TransactionStart</RequestType>
+  <DateTime>20151027135853</DateTime>
+  <PersonalAccount>3375</PersonalAccount>
+  <Currency>974</Currency>
+  <RequestId>13573375</RequestId>
+  <TransactionStart>
+    <Amount>18000</Amount>
+    <TransactionId>3375</TransactionId>
+    <Agent>999</Agent>
+  </TransactionStart>
+</ServiceProvider_Request>

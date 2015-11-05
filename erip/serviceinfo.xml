@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ServiceProvider_Request>
+  <Version>1</Version>
+  <RequestType>ServiceInfo</RequestType>
+  <DateTime>20151027131949</DateTime>
+  <PersonalAccount>3375</PersonalAccount>
+  <Currency>974</Currency>
+  <RequestId>13573375</RequestId>
+  <ServiceInfo>
+    <Agent>999</Agent>
+    <Amount>
+      <Debt/>
+      <Penalty/>
+    </Amount>
+  </ServiceInfo>
+</ServiceProvider_Request>

@@ -1,0 +1,5 @@
+gem 'rake'
+gem 'byebug'
+gem 'json'
+gem 'faker'
+gem 'faraday'

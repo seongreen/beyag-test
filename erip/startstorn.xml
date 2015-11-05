@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<ServiceProvider_Request>
+  <Version>1</Version>
+  <RequestType>StornStart</RequestType>
+  <DateTime>20151104153416</DateTime>
+  <PersonalAccount>3375</PersonalAccount>
+  <Currency>974</Currency>
+  <RequestId>13573376</RequestId>
+  <StornStart>
+    <Amount>18000</Amount>
+    <TransactionId>3375</TransactionId>
+    <ServiceProvider_TrxId>order_n_3375</ServiceProvider_TrxId>
+  </StornStart>
+</ServiceProvider_Request>
