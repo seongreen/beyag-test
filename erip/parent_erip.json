@@ -1,9 +1,10 @@
 {"request":{
-    "amount":18000,
+    "amount":22000,
     "currency":"BYR",
     "description":"Оплата заказа #3",
     "email":"ivanpetrov@tut.by",
-    "order_id":"order_n_3375",
+    "ip":"127.0.0.7",
+    "order_id":"order_n_3387",
     "customer":{
         "first_name":"Иван",
         "last_name":"Петров",
@@ -11,12 +12,11 @@
         "city":"Пинск",
         "zip":"220000",
         "address":"ул Червякова",
-	"phone":"+375172000000",
-	"ip":"127.0.0.5"
+	"phone":"+375172000000"
     },
     "payment_method":{
 	"type":"erip",
-	"account_number":"3375",
+	"account_number":"3387",
 	"service_no":"654",
         "instruction":["Платежи -> Минск -> Интернет магазины -> Доставка счастья"],
         "service_info":["Уважаемый Клиент", "введите номер заказа"],

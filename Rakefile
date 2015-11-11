@@ -8,7 +8,7 @@ require 'faraday'
 task :local do
   SHOP_ID           = '1'
   SHOP_PASSWORD     = 'f2573d272b1076354b95099a513455b5152ea67888bc5d4e45ac51147ac2fc0c'
-  URL               = 'http://192.168.66.62:3005/'
+  URL               = 'http://0.0.0.0:3005/'
 end
 
 task :erip_stack do
@@ -25,7 +25,7 @@ def send_erip_stack
   emulation_number   += 1
 
   # --- Initialize account_number and request id
-  amount         = 19000
+  amount         = 22000
   account_number = emulation_number.to_s
   request_id     = '1357' << account_number
   transaction_id = account_number
