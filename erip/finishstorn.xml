@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="windows-1251"?>
+XML=<?xml version="1.0" encoding="windows-1251"?>
 <ServiceProvider_Request>
   <Version>1</Version>
   <RequestType>StornResult</RequestType>
   <DateTime>20151104155456</DateTime>
-  <PersonalAccount>3375</PersonalAccount>
+  <PersonalAccount>3405</PersonalAccount>
   <Currency>974</Currency>
-  <RequestId>13573376</RequestId>
+  <RequestId>13573406</RequestId>
   <StornResult>
-    <Amount>18000</Amount>
+    <Amount>22000</Amount>
     <Storned>Y</Storned>
-    <TransactionId>3375</TransactionId>
-    <ServiceProvider_TrxId>order_n_3375</ServiceProvider_TrxId>
+    <TransactionId>3405</TransactionId>
+    <ServiceProvider_TrxId>order_n_3405</ServiceProvider_TrxId>
   </StornResult>
 </ServiceProvider_Request>

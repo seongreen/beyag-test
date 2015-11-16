@@ -45,7 +45,7 @@ def send_erip_stack
   outdata   = File.read(file_name).gsub(/<RequestId>\d+<\/RequestId>/, "<RequestId>#{request_id}<\/RequestId>")
   outdata   = outdata.gsub(/<PersonalAccount>\d+<\/PersonalAccount>/, "<PersonalAccount>#{account_number}<\/PersonalAccount>")
   File.open(file_name, 'w') { |out| out << outdata }
-  response = `curl -H "Content-type: application/xml; charset=windows-1251" -u #{SHOP_ID}:#{SHOP_PASSWORD} -d @#{file_name} #{URL}/notifications/erip`
+  response = `curl -H "charset=windows-1251" -u #{SHOP_ID}:#{SHOP_PASSWORD} -d @#{file_name} #{URL}/notifications/erip`
   puts response.force_encoding('windows-1251').encode('utf-8')
 
 
@@ -56,7 +56,7 @@ def send_erip_stack
   outdata   = outdata.gsub(/<TransactionId>\d+<\/TransactionId>/, "<TransactionId>#{transaction_id}<\/TransactionId>")
   outdata   = outdata.gsub(/<Amount>\d+<\/Amount>/, "<Amount>#{amount}<\/Amount>")
   File.open(file_name, 'w') { |out| out << outdata }
-  response = `curl -H "Content-type: application/xml; charset=windows-1251" -u #{SHOP_ID}:#{SHOP_PASSWORD} -d @#{file_name} #{URL}/notifications/erip`
+  response = `curl -H "charset=windows-1251" -u #{SHOP_ID}:#{SHOP_PASSWORD} -d @#{file_name} #{URL}/notifications/erip`
   puts response.force_encoding('windows-1251').encode('utf-8')
 
   # --- SEND TRANSACTION FINISH INFO EMULATION
@@ -66,7 +66,7 @@ def send_erip_stack
   outdata   = outdata.gsub(/<TransactionId>\d+<\/TransactionId>/, "<TransactionId>#{transaction_id}<\/TransactionId>")
   outdata   = outdata.gsub(/<ServiceProvider_TrxId>\w+<\/ServiceProvider_TrxId>/, "<ServiceProvider_TrxId>#{order_id}<\/ServiceProvider_TrxId>")
   File.open(file_name, 'w') { |out| out << outdata }
-  response = `curl -H "Content-type: application/xml; charset=windows-1251" -u #{SHOP_ID}:#{SHOP_PASSWORD} -d @#{file_name} #{URL}/notifications/erip`
+  response = `curl -H "charset=windows-1251" -u #{SHOP_ID}:#{SHOP_PASSWORD} -d @#{file_name} #{URL}/notifications/erip`
   puts response.force_encoding('windows-1251').encode('utf-8')
 
 
@@ -82,7 +82,7 @@ def send_erip_stack
   outdata   = outdata.gsub(/<ServiceProvider_TrxId>\w+<\/ServiceProvider_TrxId>/, "<ServiceProvider_TrxId>#{order_id}<\/ServiceProvider_TrxId>")
   outdata   = outdata.gsub(/<Amount>\d+<\/Amount>/, "<Amount>#{amount}<\/Amount>")
   File.open(file_name, 'w') { |out| out << outdata }
-  response = `curl -H "Content-type: application/xml; charset=windows-1251" -u #{SHOP_ID}:#{SHOP_PASSWORD} -d @#{file_name} #{URL}/notifications/erip`
+  response = `curl -H "charset=windows-1251" -u #{SHOP_ID}:#{SHOP_PASSWORD} -d @#{file_name} #{URL}/notifications/erip`
   puts response.force_encoding('windows-1251').encode('utf-8')
 
 
@@ -95,7 +95,7 @@ def send_erip_stack
   outdata   = outdata.gsub(/<ServiceProvider_TrxId>\w+<\/ServiceProvider_TrxId>/, "<ServiceProvider_TrxId>#{order_id}<\/ServiceProvider_TrxId>")
   outdata   = outdata.gsub(/<Amount>\d+<\/Amount>/, "<Amount>#{amount}<\/Amount>")
   File.open(file_name, 'w') { |out| out << outdata }
-  response = `curl -H "Content-type: application/xml; charset=windows-1251" -u #{SHOP_ID}:#{SHOP_PASSWORD} -d @#{file_name} #{URL}/notifications/erip`
+  response = `curl -H "charset=windows-1251" -u #{SHOP_ID}:#{SHOP_PASSWORD} -d @#{file_name} #{URL}/notifications/erip`
   puts response.force_encoding('windows-1251').encode('utf-8')
   
   File.open(  file_name = "erip/account_number_counter.txt", 'w') { |out| out << emulation_number.to_s }
