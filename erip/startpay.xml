@@ -3,12 +3,12 @@ XML=<?xml version="1.0" encoding="windows-1251"?>
   <Version>1</Version>
   <RequestType>TransactionStart</RequestType>
   <DateTime>20151027135853</DateTime>
-  <PersonalAccount>3405</PersonalAccount>
+  <PersonalAccount>3440</PersonalAccount>
   <Currency>974</Currency>
-  <RequestId>13573405</RequestId>
+  <RequestId>13573440</RequestId>
   <TransactionStart>
     <Amount>22000</Amount>
-    <TransactionId>3405</TransactionId>
+    <TransactionId>3440</TransactionId>
     <Agent>999</Agent>
   </TransactionStart>
 </ServiceProvider_Request>

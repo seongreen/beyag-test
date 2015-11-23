@@ -29,9 +29,9 @@ def send_erip_stack
   account_number = emulation_number.to_s
   request_id     = '1357' << account_number
   transaction_id = account_number
-  order_id       = "order_n_#{account_number}"
+  order_id       = "10000000#{account_number}"
   
-  # --- Create ERIP PAYMENT  
+  # # --- Create ERIP PAYMENT  
   file_name       = "erip/parent_erip.json"
   outdata   = File.read(file_name).gsub(/\"account_number\":\"\d+\"/, "\"account_number\":\"#{account_number}\"")
   outdata   = outdata.gsub(/\"amount\":\d+/, "\"amount\":#{amount}")

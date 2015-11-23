@@ -3,14 +3,11 @@ XML=<?xml version="1.0" encoding="windows-1251"?>
   <Version>1</Version>
   <RequestType>ServiceInfo</RequestType>
   <DateTime>20151027131949</DateTime>
-  <PersonalAccount>3405</PersonalAccount>
+  <PersonalAccount>3440</PersonalAccount>
+  <ServiceNo>1</ServiceNo>
   <Currency>974</Currency>
-  <RequestId>13573405</RequestId>
+  <RequestId>13573440</RequestId>
   <ServiceInfo>
     <Agent>999</Agent>
-    <Amount>
-      <Debt/>
-      <Penalty/>
-    </Amount>
   </ServiceInfo>
 </ServiceProvider_Request>

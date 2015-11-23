@@ -4,7 +4,7 @@
     "description":"Оплата заказа #3",
     "email":"ivanpetrov@tut.by",
     "ip":"127.0.0.7",
-    "order_id":"order_n_3387",
+    "order_id":"100000003440",
     "customer":{
         "first_name":"Иван",
         "last_name":"Петров",
@@ -15,9 +15,10 @@
 	"phone":"+375172000000"
     },
     "payment_method":{
+	"agent":"999",
 	"type":"erip",
-	"account_number":"3387",
-	"service_no":"654",
+	"account_number":"3440",
+	"service_no":"1",
         "instruction":["Платежи -> Минск -> Интернет магазины -> Доставка счастья"],
         "service_info":["Уважаемый Клиент", "введите номер заказа"],
         "receipt": ["Спасибо за оплату, наши операторы свежутся с вами"]

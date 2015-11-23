@@ -3,13 +3,13 @@ XML=<?xml version="1.0" encoding="windows-1251"?>
   <Version>1</Version>
   <RequestType>StornResult</RequestType>
   <DateTime>20151104155456</DateTime>
-  <PersonalAccount>3405</PersonalAccount>
+  <PersonalAccount>3440</PersonalAccount>
   <Currency>974</Currency>
-  <RequestId>13573406</RequestId>
+  <RequestId>13573441</RequestId>
   <StornResult>
     <Amount>22000</Amount>
     <Storned>Y</Storned>
-    <TransactionId>3405</TransactionId>
-    <ServiceProvider_TrxId>order_n_3405</ServiceProvider_TrxId>
+    <TransactionId>3440</TransactionId>
+    <ServiceProvider_TrxId>100000003440</ServiceProvider_TrxId>
   </StornResult>
 </ServiceProvider_Request>
